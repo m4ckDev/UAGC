@@ -56,6 +56,14 @@ Projects emphasize:
 /Log-Analysis
 /Reports
 /Notes
+/CPT201_Resources
+  /CheatSheets
+  /QuickScripts
+    /PowerShell
+    /Python
+  /Templates
+  /Samples
+  README.md
 
 ---
 
