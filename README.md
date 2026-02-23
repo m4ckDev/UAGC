@@ -1,132 +1,100 @@
-# 🎓 UAGC Cybersecurity & Automation Portfolio
+# 🎓 UAGC Cyber & Data Security Technology Portfolio
+
 **Author:** Jonnathan MacKinnon  
-**Program:** Bachelor of Science in Cybersecurity  
-**Institution:** University of Arizona Global Campus (UAGC)
+**Program:** Bachelor of Science (B.S.)  
+**Major:** Cyber and Data Security Technology (UAGC)  
 
 ---
 
-## 📌 Purpose
+## What this repo is
 
-This repository contains coursework, labs, and personal extensions developed throughout my UAGC cybersecurity program.  
-The goal is not only to complete assignments, but to **build real-world security, automation, and system administration skills** that translate directly into operational environments.
+This repository is my structured academic portfolio for UAGC. Each course has its own folder and a consistent layout so assignments, labs, notes, scripts, and resources stay organized and easy to review.
 
-Projects emphasize:
-
-• Windows security monitoring  
-• PowerShell automation  
-• Python-based security scripting  
-• Log analysis and detection logic  
-• Secure configuration templating  
-• Documentation and reproducibility  
+I treat coursework as practical skill development, not “turn it in and forget it.”
 
 ---
 
-## 🛠️ Core Skill Areas
+## Repo structure
 
-### 🔐 Security Monitoring
-- Windows Event Log analysis  
-- Failed login detection (Event ID 4625)  
-- Privileged account monitoring  
-- CSV-based reporting for investigations  
+Each course folder follows the same standard structure:
 
-### ⚙️ Automation & Scripting
-- PowerShell task automation  
-- Python security tooling  
-- Scheduled monitoring workflows  
-- Script modularization and version control  
-
-### 📊 Log Analysis & Detection
-- Filtering high-value security events  
-- Building detection logic for brute-force activity  
-- Structured report generation  
-- Reducing analyst workload through automation  
-
-### 🧩 Configuration Management
-- Jinja2 templating  
-- JSON-driven device configuration  
-- Error reduction through standardized deployment  
+- **Notes**: lecture notes, summaries, study guides  
+- **Labs**: hands-on exercises and checkpoints  
+- **Projects**: graded projects and expanded builds  
+- **Resources**: references, cheat sheets, templates  
+- **Samples**: example outputs and test data  
 
 ---
 
-## 📂 Repository Structure
-/Projects
-/PowerShell
-/Python
-/Automation
-/Log-Analysis
-/Reports
-/Notes
-/CPT201_Resources
-  /CheatSheets
-  /QuickScripts
-    /PowerShell
-    /Python
-  /Templates
-  /Samples
-  README.md
+## Course map (by status)
+
+### ✅ Completed
+- **GEN 101** — Developing Skills & Strategies for Success :contentReference[oaicite:2]{index=2}  
+- **CYB 101** — Defensive Network Reconnaissance :contentReference[oaicite:3]{index=3}  
+
+### 🟡 In Progress
+- **CPT 201** — Automation and Scripting for Cybersecurity and Physical Threat Detection :contentReference[oaicite:4]{index=4}  
+
+### 📅 Scheduled
+- **MAT 222** — Intermediate Algebra :contentReference[oaicite:5]{index=5}  
+- **CYB 102** — Network Penetration Testing: Breaching Defenses :contentReference[oaicite:6]{index=6}  
+- **ECO 203** — Principles of Macroeconomics :contentReference[oaicite:7]{index=7}  
+- **TEC 102** — Cybersecurity Fundamentals for Hardware, Software & Physical Infrastructure :contentReference[oaicite:8]{index=8}  
+
+### ⏳ Not Scheduled (Planned)
+**General Education Capstone**
+- **GEN 499** — General Education Capstone :contentReference[oaicite:9]{index=9}  
+
+**Major Requirements**
+- **CYB 200** — Database Security: Defense in Depth :contentReference[oaicite:10]{index=10}  
+- **CYB 201** — Beginning White Hat Ethical Hacker :contentReference[oaicite:11]{index=11}  
+- **CYB 300** — System Administration & Security :contentReference[oaicite:12]{index=12}  
+- **CYB 301** — Introduction to Cyber & Data Security Technology :contentReference[oaicite:13]{index=13}  
+- **CYB 302** — Secure Web Applications and Social Networking :contentReference[oaicite:14]{index=14}  
+- **CYB 303** — Advanced White Hat Ethical Hacker :contentReference[oaicite:15]{index=15}  
+- **CYB 304** — Security Information Systems Security Manager :contentReference[oaicite:16]{index=16}  
+- **CYB 400** — Cryptography :contentReference[oaicite:17]{index=17}  
+- **CYB 401** — Risk Management and Infrastructure :contentReference[oaicite:18]{index=18}  
+- **CYB 402** — Computer Forensics :contentReference[oaicite:19]{index=19}  
+- **CYB 499** — Capstone for Cyber & Data Security Technology :contentReference[oaicite:20]{index=20}  
+- **ENG 328** — Scientific & Technical Writing :contentReference[oaicite:21]{index=21}  
+- **INT 300** — Network and Physical Infrastructure Security :contentReference[oaicite:22]{index=22}  
+- **MAT 233** — Statistics and Discrete Mathematics :contentReference[oaicite:23]{index=23}  
 
 ---
 
+## Highlight: CPT201 Resource Pack
 
-Each project contains:
-
-• source code  
-• sample outputs  
-• explanation of purpose  
-• lessons learned  
-• potential real-world application  
-
----
-
-## 🚀 Highlight Projects
-
-### Windows Security Event Detection
-Automated detection of failed logon attempts using PowerShell and Windows Event Logs.  
-Outputs structured CSV reports for incident review and auditing.
-
-### Automation with Python & Templates
-Generated device configurations using JSON datasets and Jinja2 templates to demonstrate scalable automation and error reduction.
-
-### Security Reporting Workflow
-Created scripts that simulate security events and validate detection reliability, accuracy, and reporting integrity.
+The **CPT201** folder includes a “good-to-go” reference pack used throughout scripting and automation work:
+- cheat sheets
+- quick PowerShell scripts
+- quick Python scripts
+- report + documentation templates
+- sample outputs
 
 ---
 
-## 🎯 Learning Philosophy
+## Academic integrity
 
-This portfolio reflects my approach to cybersecurity development:
-
-• learn concepts deeply, not superficially  
-• build tools instead of only reading about them  
-• document everything for reproducibility  
-• simulate real-world security workflows  
-• continuously refine scripts beyond assignment requirements  
+Work in this repository is created for learning and academic requirements. Where references are used, they are credited. This repo is structured to demonstrate skill progression and reproducible work habits.
 
 ---
 
-## 📈 Future Expansion
+## How to navigate quickly
 
-This repository will continue to grow with:
-
-- advanced detection engineering  
-- threat hunting automation  
-- SIEM-style log correlation projects  
-- defensive scripting improvements  
-- offensive security lab integrations  
+Start here:
+- `CPT201_...` for automation and scripting work
+- `CYB101_...` for foundational defensive recon material
+- Planned courses are pre-built so future work drops into an organized structure immediately
 
 ---
 
-## 🤝 Academic Integrity
+## Tooling
 
-All work represents my own implementation of course objectives, with additional experimentation performed to reinforce learning and practical skill development.
-
----
-
-## 📬 Contact
-
-GitHub: https://github.com/m4ckDev  
-Program: UAGC Cybersecurity  
+Most scripts and labs are written for:
+- Windows PowerShell
+- Python 3.x
 
 ---
 
-> This portfolio reflects continuous growth, experimentation, and hands-on security development rather than simple assignment completion.
+> If you’re reviewing this repo: course folders are intentionally standardized to make coursework easy to validate, reproduce, and extend.
