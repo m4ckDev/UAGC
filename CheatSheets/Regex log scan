@@ -1,0 +1,5 @@
+import re
+pattern = re.compile(r"failed|error|denied", re.IGNORECASE)
+for line in open("log.txt", encoding="utf-8"):
+    if pattern.search(line):
+        print(line.strip())
