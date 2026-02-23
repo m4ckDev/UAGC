@@ -1,0 +1,4 @@
+import json
+data = {"host":"localhost","port":8080}
+with open("Output/out.json","w",encoding="utf-8") as f:
+    json.dump(data, f, indent=2)
