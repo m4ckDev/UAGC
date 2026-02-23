@@ -1,0 +1,177 @@
+﻿select {
+	display:block;
+}
+
+/*************** BEGIN :: Page Control Definitions ***************/
+#rubric-criterion{
+	display:block;
+	position:fixed;
+	top:150px;
+	bottom:70px;
+	width:200px;
+	background:#ededed;
+}
+#rubric_type_form select{
+	width:98%;
+	background-color:#eee;
+}
+
+
+#rubric-observations {
+	display:block;
+	float:left;
+	margin-left:220px;
+}
+
+
+#selectable a{color:#fff; text-decoration:none;}
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected, #selectable li:hover { background: #999; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#selectable li { margin: 3px; padding: 0.4em; font-size: 1em; height: 18px; background:#C0C0C0 ;}
+/**************** END :: Rubric Control Definitions ****************/
+
+
+/******************* BEGIN :: Generic Elements *******************/
+.btnRoundSilver{
+	background:url(/media/images/btn-round-silver.png) no-repeat right -33px;
+	display:inline-block;
+	height:25px;
+	line-height:25px;
+	padding:0 25px 2px 0;
+	font-size:11px;
+	font-weight:700;
+	color:#333;
+	text-shadow: 1px 1px #f1f0f0;
+	text-decoration:none;
+}
+.btnRoundSilver span{
+	background:url(/media/images/btn-round-silver.png) no-repeat 0 0;
+	display:block;
+	height:25px;
+	padding:0 0 0 25px;
+}
+.btnRoundSilver:hover{
+	background-position:right -103px;
+	text-decoration:none;
+}
+.btnRoundSilver:hover span{
+	background-position:0 -70px;
+}
+.btnRoundSilver:active{
+	background-position:right -173px;
+}
+.btnRoundSilver:active span{
+	background-position:0 -140px;
+}
+/**************** END :: Generic Elements ****************/
+
+
+/******************* BEGIN :: Block *******************/
+.block { 
+	width:600px; 
+	margin:0; 
+	background:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;    
+	border-radius:5px;
+	-moz-box-shadow: 0px 1px 2px #b3b3b3;
+    -webkit-box-shadow: 0px 1px 2px #b3b3b3;
+	box-shadow: 0px 1px 2px #b3b3b3;
+	/* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=90, Color='#b3b3b3')";
+    /* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=90, Color='#b3b3b3');
+}
+.block .hdr {
+	height:32px;
+	line-height:32px;
+	padding:0 10px;
+	border-bottom:1px solid #cacaca;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;    
+	border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;    
+	border-top-right-radius:5px;
+	background:#ccc/* -moz-linear-gradient(
+    center bottom,
+    rgb(222,222,222) 27%,
+    rgb(239,239,239) 50%,
+    rgb(249,249,249) 50%,
+    rgb(255,255,255) 91%)*/;
+	background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.27, rgb(222,222,222)),
+    color-stop(0.5, rgb(239,239,239)),
+    color-stop(0.5, rgb(249,249,249)),
+    color-stop(0.91, rgb(255,255,255)));
+}
+.block .hdr .ttl {
+	margin:0px;
+	padding:0px;
+	float:left;
+	font-size:13px;
+	text-shadow: 1px 1px #fff;	
+}
+.block .hdr .score {
+	margin:0px;
+	padding:0px;
+	float:right;
+	font-size:13px;
+	font-weight:700;
+	text-shadow: 1px 1px #fff;
+}
+.block .hdr .score .scoreValue{
+	padding-left:5px;
+}
+.block .subTtl {
+	background:#dbe9f7;
+	border-top:1px soid #e9f0f6;
+	border-bottom:1px solid #c8d4e1;
+	color:#6c7a87;
+	font-size:11px;
+	font-weight:700;
+	margin:0px;
+	padding:0px 15px;
+	height:23px;
+	line-height:23px;
+	text-shadow: 1px 1px #f5f9fd;
+}
+.block .checkList{
+	margin:0px;
+	padding:6px;
+	list-style:none;
+}
+.block .checkList li{
+	margin:0 0 2px 0;
+	padding:9px 9px 9px 30px;
+	line-height:1.4em;
+	list-style:none;
+	background:#ededed url(/media/images/checklist-boxes.png) no-repeat -33px 10px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;    
+	border-radius:3px;
+	border:1px solid #ededed;
+	font-size:11px;
+}
+.block .checkList li:hover{
+	cursor:pointer;
+	background-color:#e5e5e5;
+}
+.block .checkList li.active{
+	background-color:#ddffb4;
+	background-position:9px -32px;
+	border:1px solid #cdeda7;
+}
+/**************** END :: Block ****************/
+
+#confirm-reset-dialog p {
+	font-size: 14px;
+}
+
+#confirm-reset-dialog p {
+	padding: 10px;
+}

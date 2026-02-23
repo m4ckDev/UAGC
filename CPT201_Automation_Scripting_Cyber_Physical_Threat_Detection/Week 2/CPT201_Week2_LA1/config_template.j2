@@ -1,0 +1,10 @@
+hostname {{ hostname }}
+
+interface {{ mgmt_interface }}
+ ip address {{ mgmt_ip }} {{ mgmt_mask }}
+ no shutdown
+
+{% for vlan in vlans %}
+vlan {{ vlan.id }}
+ name {{ vlan.name }}
+{% endfor %}

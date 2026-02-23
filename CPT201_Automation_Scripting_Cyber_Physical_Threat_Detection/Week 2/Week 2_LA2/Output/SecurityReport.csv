@@ -1,0 +1,4 @@
+"Time","User","EventID","Message"
+"2/22/2026 8:13:27 PM","DESKTOP-JONNA\Jonnathan","4625","Sample: Failed login attempt (used for brute-force detection)."
+"2/22/2026 8:13:27 PM","DESKTOP-JONNA\Administrator","4672","Sample: Special privileges assigned to new logon (used for privileged access monitoring)."
+"2/22/2026 8:13:27 PM","DESKTOP-JONNA\Jonnathan","4688","Sample: A new process has been created (used to monitor suspicious process activity)."

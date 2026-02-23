@@ -1,0 +1,15 @@
+hostname Switch1
+
+interface Vlan99
+ ip address 192.168.99.2 255.255.255.0
+ no shutdown
+
+
+vlan 10
+ name USERS
+
+vlan 20
+ name SERVERS
+
+vlan 99
+ name MGMT

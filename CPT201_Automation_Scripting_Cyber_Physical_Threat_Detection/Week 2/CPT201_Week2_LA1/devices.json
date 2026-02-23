@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Router1",
+    "hostname": "Router1",
+    "mgmt_interface": "GigabitEthernet0/0",
+    "mgmt_ip": "192.168.1.1",
+    "mgmt_mask": "255.255.255.0",
+    "vlans": [
+      { "id": 10, "name": "USERS" },
+      { "id": 20, "name": "SERVERS" }
+    ]
+  },
+  {
+    "name": "Switch1",
+    "hostname": "Switch1",
+    "mgmt_interface": "Vlan99",
+    "mgmt_ip": "192.168.99.2",
+    "mgmt_mask": "255.255.255.0",
+    "vlans": [
+      { "id": 10, "name": "USERS" },
+      { "id": 20, "name": "SERVERS" },
+      { "id": 99, "name": "MGMT" }
+    ]
+  }
+]

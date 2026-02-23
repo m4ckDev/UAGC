@@ -1,0 +1,12 @@
+hostname Router1
+
+interface GigabitEthernet0/0
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+
+
+vlan 10
+ name USERS
+
+vlan 20
+ name SERVERS

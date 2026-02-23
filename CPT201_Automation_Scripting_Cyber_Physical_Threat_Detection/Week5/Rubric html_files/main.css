@@ -1,0 +1,290 @@
+/*************** BEGIN :: Generic Style Definitions ***************/
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+
+/**************************************************/
+/* Universal classes  */
+/**************************************************/
+.off-screen {
+	position: absolute;
+	left: -9999em;
+}
+
+.normal-weight {
+	font-weight: normal;
+}
+
+.no-bullet, .no-bullet li {
+	list-style: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.no-bullet li {
+	margin: 0px;
+	padding: 5px;
+}
+
+.container {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.right_block {
+	display: block;
+	float: right;
+}
+
+.width90 {
+	position: relative;
+	width: 90%;
+}
+
+.p10 {
+	padding: 10px;
+}
+
+.p20 {
+	padding: 20px;
+}
+
+.sp10 {
+	height: 10px;
+	line-height: 10px;
+}
+
+.sp20 {
+	height: 20px;
+	line-height: 20px;
+}
+
+.sp30 {
+	height: 30px;
+	line-height: 30px;
+}
+
+.i10 {
+	padding: 0 10px;
+}
+
+.i20 {
+	padding: 0 20px;
+}
+
+.size150 {
+	font-size: 1.5em;
+}
+
+.floatL {
+	float: left;
+}
+
+.floatR {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.align_left {
+	text-align: left;
+}
+
+.align_right {
+	text-align: right;
+}
+
+.align_center {
+	text-align: center;
+}
+
+.border-blue {
+	border: 1px solid #103961;
+}
+
+.white {
+	background-color: #dadada;
+}
+
+.gray {
+	background-color: #dadada;
+}
+
+.red {
+	color: #c00;
+}
+
+.hide {
+	display: none;
+}
+
+.clear {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+/* clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+* html .clearfix {
+	zoom: 1;
+}
+
+*:first-child + html .clearfix {
+	zoom: 1;
+}
+
+/* malarkey! (image replacement) */
+.mir {
+	letter-spacing: -1000em;
+}
+/*\*/html > body .mir {
+	letter-spacing: normal;
+	text-indent: -999em;
+	overflow: hidden;
+}
+
+.saving {
+	background: url('/media/images/evaluator/autosaving.gif') 0 0 no-repeat;
+	padding-left: 20px;
+	line-height: 18px;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-moz-binding: url('/media/xml/ellipsis.xml#ellipsis');
+}
+
+.field-validation-error {
+	color: #ff0000;
+}
+
+.input-validation-error {
+	border: 1px solid #ff0000;
+	background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+	margin: 10px;
+	padding-top: 10px;
+	padding-left: 60px;
+	font-weight: bold;
+	background: #fff799 url('/media/images/icon-triangle.png') 0 0 no-repeat;
+	color: #333;
+	min-height: 57px;
+	border: 2px solid #333;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.validation-summary-errors ul {
+	margin-top: 0px;
+}
+
+
+/**************************************************/
+/* Begin Layout ***********************************/
+/**************************************************/
+#wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 1000px;
+	height: 100%;
+}
+
+.divider {
+	width: 100%;
+	height: 0;
+	background-color: #1B4164;
+	border-bottom: 1px solid #fff;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 81px;
+	background-color: #1B4164;
+	overflow: hidden;
+	z-index: 10;
+}
+
+#main-content {
+	display: block;
+	padding-bottom: 20px;
+	width: 100%;
+	background-color: #fff;
+	z-index: 9;
+}
+
+#footer {
+	display: block;
+	width: 100%; /*height:40px;  	bottom:0px;*/
+	line-height: 40px;
+	border-bottom: 1px solid #cacac9;
+	background-color: #999;
+	text-align: center;
+}
+
+#staging {
+	position: absolute;
+	left: -9999em;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+#login {
+	padding: 5px 0;
+	color: #fff;
+}
+
+#login a, #login a:visited {
+	color: #ccccff;
+}
+
+#loading-overlay {
+	text-align: center;
+}
+
+/**************************************************/
+/* Begin Styles ***********************************/
+/**************************************************/
+a#logo, a#logo:link, a#logo:visited, a#logo:hover, a#logo:active {
+	width: 100px;
+	height: 0;
+	padding-top: 40px;
+	margin-left: 20px;
+	overflow: hidden;
+	float: left;
+	background: url('/media/images/site-sprite.png') 0 0px no-repeat;
+	text-decoration: none;
+	border-bottom: 0;
+	display: block;
+}
