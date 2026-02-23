@@ -1,0 +1,3 @@
+import hashlib, pathlib
+b = pathlib.Path("file.bin").read_bytes()
+print(hashlib.sha256(b).hexdigest())
